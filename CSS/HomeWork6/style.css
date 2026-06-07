@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #282626;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 60px;
+}
+
+.google{
+    display: flex;
+    height: 51px;
+}
+
+.yazi{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.google .yazi .text{
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.google img{
+    width: 48px;
+    height: 48px;
+    margin: 0.3rem 1rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.search .searchlogo{
+    font-size: 1.2rem;
+    color: #fff;
+    margin-right: 0.4rem;
+}
+
+.search input{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #3d3838;
+}
+
+.search .otherlogos{
+    display: flex;
+    gap: 1rem;
+    margin-left: 0.4rem;
+    color:#fff;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+
+.gap{
+    width: 100%;
+    height: 36em;
+}
+
+footer{
+    color: #fff;   
+}
+
+.country{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+}
+
+.privacy{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
