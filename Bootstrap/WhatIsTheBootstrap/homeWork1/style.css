@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__logo:hover,
+.header__logo{
+    color: rgb(216, 100, 100);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+
+.nav-list__link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-list__link:hover,
+.nav-list__link--active{
+    color: rgb(47, 47, 55);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hello-text__title{
+    color: rgb(216, 100, 100);
+    font-weight: 500;
+}
+
+.lead-header{
+    color: rgb(185, 139, 11);
+}
+
+.row_header{
+    color: rgb(139, 27, 177);
+}
+
+.card-text{
+    color: rgb(139, 27, 177);
+}
