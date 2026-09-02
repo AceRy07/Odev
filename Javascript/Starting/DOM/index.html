@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+</head>
+<body>
+    <h1 class="title">Javascript DOM</h1>
+    <h1 class="title">Javascript DOM</h1>
+    <h1 class="title" id="title">Javascript DOM</h1>
+    <h1 class="title">Javascript DOM</h1>
+
+    <h2>Student List</h2>
+    <ul class="list1">
+        <li class="list-item">Ali</li>
+        <li class="list-item">Veli</li>
+        <li class="list-item">Ahmet</li>
+        <li class="list-item">Mehmet</li>
+    </ul>
+
+    <h2>Student List 2</h2>
+    <ul class="list2">
+        <li class="list-item">Ali</li>
+        <li class="list-item">Veli</li>
+        <li class="list-item">Ahmet</li>
+        <li class="list-item">Mehmet</li>
+    </ul>
+
+
+    <!-- <script src="script.js"></script> -->
+
+    <script>
+        // İlk olan h1 elementini seçiyoruz.
+        // QuerySelector tekli seçici.
+        // const title = document.querySelector("h1");
+        // const title = document.querySelector(".title");
+        // console.log(title);
+        // title.remove();
+        // title.style.color="red";
+
+        // const title2 = document.getElementById("title");
+        // title2.style.color="blue";
+
+
+
+        // Tekli seçici örnekleri
+        /*
+        document.querySelector("h1").style.color="green";
+        document.querySelector("h1").style.backgroundColor="black";
+        document.querySelector("h1").style.width="250px";
+        document.querySelector("h1").style.height="100px";
+
+        const title = document.querySelector("h1");
+        title.innerHTML = "Updated Javascript DOM";
+        title.innerHTML = "<button>Click Me</button>";
+        console.log(title);
+
+        const studentList = document.querySelector("ul");
+        document.querySelector("li").style.color="red";
+        document.querySelector("li:nth-child(3)").style.color="purple";
+        document.querySelector("li:last-child").style.color="red";
+        console.log(studentList);
+        */
+        
+
+        // Coklu SEçiciler
+        /*
+        const listItem = document.getElementsByClassName("list-item");
+        for(let i=0; i<listItem.length; i++){
+            // console.log(listItem[i]);
+            listItem[i].style.color="blue";
+        }
+
+        // of -> listItem da ki ürünleri list değişkene aktar.
+        for(let list of listItem){
+            list.style.color="red";
+        }
+        console.log(listItem);
+        */
+
+        // const listItem = document.querySelectorAll(".list-item");
+        // const listItem = document.getElementsByTagName("li");
+        // console.log(listItem);
+
+
+        const list1 = document.querySelector(".list1")
+        const listItem = list1.getElementsByTagName("li")
+
+    </script>
+</body>
+</html>
